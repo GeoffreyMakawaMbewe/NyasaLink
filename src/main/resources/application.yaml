@@ -1,7 +1,7 @@
 spring:
   application:
     name: API-GATEWAY
-  cloud:
+  cloud: # Will hold all spring cloud related configurations
     gateway:
       server:
         webmvc:
