@@ -3,9 +3,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/GeoffreyMakawaMbewe/NyasaLink.git
+          uri: https://github.com/GeoffreyMakawaMbewe/NyasaLink/config-repo
           clone-on-start: true
-          default-label: main
+#          default-label: main
   application:
     name: CONFIGURATION-SERVICE
 server:
