@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      server:
+        webmvc:
+          routes:
+            - id: config-service
+              uri: lb://CONFIGURATION-SERVICE
+              predicates:
+                - Path=/config-server/**
+
+
+
+
+
+
