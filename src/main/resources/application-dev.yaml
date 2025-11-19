@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/GeoffreyMakawaMbewe/NyasaLink.git
+          uri: https://github.com/GeoffreyMakawaMbewe/NyasaLink/tree/main/src/main/resources
           clone-on-start: true
           default-label: main
   application:
