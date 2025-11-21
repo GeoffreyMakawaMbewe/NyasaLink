@@ -6,6 +6,13 @@ spring:
           uri: https://github.com/GeoffreyMakawaMbewe/NyasaLink.git
           clone-on-start: true
 #          default-label: main
+
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka/
+
+
   application:
     name: CONFIGURATION-SERVICE
 server:
