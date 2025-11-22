@@ -16,7 +16,7 @@ spring:
   application:
     name: CONFIGURATION-SERVICE
 server:
-  port: 1010
+  port: 8888
 
 logging:
   level:
