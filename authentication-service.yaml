@@ -8,7 +8,7 @@ spring:
     hibernate:
       # Options: 'none', 'validate', 'update', 'create', 'create-drop'
       # 'update' is common for development environments to sync schema
-      ddl-auto: update
+      ddl-auto: create-drop
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
